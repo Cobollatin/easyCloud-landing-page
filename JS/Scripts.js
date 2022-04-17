@@ -34,7 +34,6 @@ function getTranslation(key) {
     let translation = translations[key[0]];
     for (let i = 1; i < key.length; i++) {
         translation = translation[key[i]];
-        console.log(translation);
     }
     return translation;
 }
