@@ -1,0 +1,20 @@
+{
+  "app-title": "easyCloud",
+  "app-description": "We will help you chose the best cloud provider for your needs.",
+  "app-login": "Login",
+  "app-register": "Register",
+  "app-features": {
+    "save-your-quotes": {
+      "title": "SAVE YOUR QUOTES",
+      "description": "You can save all your quotes and view them at any time and place."
+    },
+    "simultaneously-quote": {
+      "title": "SIMULTANEOUSLY QUOTE",
+      "description": "Quote your cloud providers services simultaneously."
+    },
+    "main-cloud-services": {
+      "title": "MAIN CLOUD SERVICES",
+      "description": "You can choose from virtual machines, databases or serverless computing."
+    }
+  }
+}

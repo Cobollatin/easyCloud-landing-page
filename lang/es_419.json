@@ -1,0 +1,20 @@
+{
+  "app-title": "easyCloud",
+  "app-description": "Nosotros te ayudaremos a elegir el mejor proveedor de la nube para tus necesidades.",
+  "app-login": "Iniciar sesión",
+  "app-register": "Registrarse",
+  "app-features": {
+    "save-your-quotes": {
+      "title": "GUARDA TUS COTIZACIONES",
+      "description": "Podras guardar tus cotizaciones y acceder a ellas en cualquier momento."
+    },
+    "simultaneously-quote": {
+      "title": "COTIZA SIMULTANEOAMENTE",
+      "description": "Cotiza en diferentes proveedores simultaneoamente."
+    },
+    "main-cloud-services": {
+      "title": "LOS PRINCIPALES SERVICIOS DE LA NUBE",
+      "description": "Poras escoger entre maquinas virtuales, bases de datos y computacion serverless."
+    }
+  }
+}
