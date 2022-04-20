@@ -58,3 +58,25 @@ function bindLocaleSwitcher(initialValue) {
         setLocale(e.target.value);
     };
 }
+
+let addFree = document.getElementById('free-add');
+let addProfessional = document.getElementById('professional-add');
+let addBusiness = document.getElementById('business-add');
+
+let containerFree = document.getElementById('container-free');
+let containerProfessional = document.getElementById('container-professional');
+let containerBusiness = document.getElementById('container-business');
+
+
+addFree.addEventListener("click", (e)=>{
+    if(containerFree.style.display == "none") containerFree.style.display = "block";
+    else containerFree.style.display = "none"
+ });
+addProfessional.addEventListener("click", (e)=>{
+    if(containerProfessional.style.display == "none") containerProfessional.style.display = "block";
+    else containerProfessional.style.display = "none"
+});
+addBusiness.addEventListener("click", (e)=>{
+    if(containerBusiness.style.display == "none") containerBusiness.style.display = "block";
+    else containerBusiness.style.display = "none"   
+});
