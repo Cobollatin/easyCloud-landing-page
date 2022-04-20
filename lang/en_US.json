@@ -18,6 +18,13 @@
       "description": "You can choose from virtual machines, databases or serverless computing."
     }
   },
+
+  "app-providers": {
+    "title-providers": "The best cloud providers in one application"
+  },
+
+
+
   "app-pricing": {
     "title-pricing": "Choose your plan",
     "free-card": {
