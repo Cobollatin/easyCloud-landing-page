@@ -14,7 +14,25 @@
     },
     "main-cloud-services": {
       "title": "LOS PRINCIPALES SERVICIOS DE LA NUBE",
-      "description": "Poras escoger entre maquinas virtuales, bases de datos y computacion serverless."
+      "description": "Podras escoger entre maquinas virtuales, bases de datos y computacion serverless."
     }
+  },
+  "app-pricing": {
+    "title-pricing": "Elegi tu plan",
+    "free-card": {
+      "title": "GRATIS",
+      "description": "Comparación con tres proveedores."
+    },
+    "professional-card": {
+      "title": "PROFESIONAL",
+      "description": "Comparación con todos nuestros proveedores."
+    },
+    "business-card": {
+      "title": "EMPRESAS",
+      "description-1": "Intermediamos entre ustedes y los proveedores.",
+      "description-2": "Ofertas exclusivas."
+
+    }
+    
   }
 }
