@@ -1,6 +1,6 @@
-<<<<<<< HEAD
-:root{
-    --font : 'IBM Plex Mono', monospace;
+
+:root {
+    --font: 'IBM Plex Mono', monospace;
     --title-color: #003A6D;
     --subtitle-color: #0072C3;
     --text-color: #1D7EC3; /* opacity 69% */
@@ -10,35 +10,34 @@
     --card-light-color: #4589FF;
 }
 
-*{
+* {
     font-family: var(--font);
     font-size: 16px;
 }
 
-nav{
-    display: fixed;
+nav {
     top: 0;
     left: 0;
-    box-shadow: 0 0 0.5rem rgba(0,0,0,0.2);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
 }
 
-.navbar{
+.navbar {
     padding: 12.5px;
 }
 
-.navbar-brand{
+.navbar-brand {
     display: flex;
     align-items: center;
 }
 
-.navbar-brand span{
+.navbar-brand span {
     font-size: 24px;
     line-height: 31px;
     font-weight: bold;
     color: var(--title-color);
 }
 
-.navbar-brand img{
+.navbar-brand img {
     max-width: 56px;
     max-height: 39px;
     width: 100%;
@@ -46,37 +45,37 @@ nav{
     margin-right: 18px;
 }
 
-.navbar-nav{
+.navbar-nav {
     display: flex;
     align-items: center;
 }
 
-.navbar-nav :not(:last-child){
+.navbar-nav :not(:last-child) {
     margin-right: 10px;
 }
 
-.btn{
+.btn {
     padding: 10px 14px;
 }
 
-.btn-outline-primary{
+.btn-outline-primary {
     border-radius: 13px;
     border: 3px solid var(--title-color);
     background-color: transparent;
 }
 
-.nav-link{
+.nav-link {
     padding: 0;
     color: var(--black-color);
     font-weight: bold;
 }
 
 
-.hero{
+.hero {
     padding: 0 4vw;
 }
 
-.hero__wrapper{
+.hero__wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,13 +84,13 @@ nav{
 }
 
 
-.hero__content{
+.hero__content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.hero__title{
+.hero__title {
     color: var(--white-color);
     font-weight: bold;
     text-align: center;
@@ -100,11 +99,11 @@ nav{
     font-size: 2.8vw;
 }
 
-.btn-calltoaction{
+.btn-calltoaction {
     margin-top: 7vh;
     padding: 1vw 4vw;
     background: var(--white-color);
-    border-radius: 40px;  
+    border-radius: 40px;
     width: auto;
     white-space: nowrap;
     color: var(--title-color) !important;
@@ -115,33 +114,36 @@ nav{
 }
 
 @media (max-width: 768px) {
-    .hero__title{
+    .hero__title {
         max-width: 770px;
         font-size: 4.8vw;
     }
-    .hero__wrapper{
+
+    .hero__wrapper {
         height: 70vh;
     }
-    .navbar{
+
+    .navbar {
         padding: 10px;
     }
 }
 
 @media (min-width: 1920px) {
-    .hero__title{
+    .hero__title {
         max-width: 770px;
         font-size: 1.8vw;
     }
-    .hero__wrapper{
+
+    .hero__wrapper {
         height: 60vh;
     }
-    .btn-calltoaction{
+
+    .btn-calltoaction {
         font-size: 2.5vh;
     }
 }
-=======
-#pricing h2
-{
+
+#pricing h2 {
     margin-top: 50px;
     font-family: 'IBM Plex Mono';
     font-weight: 700;
@@ -152,8 +154,7 @@ nav{
     color: #003A6D;
 }
 
-.free-card, .professional-card, .business-card
-{
+.free-card, .professional-card, .business-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,23 +165,23 @@ nav{
 
 
 }
-.upper-card
-{
+
+.upper-card {
     height: 100px;
     display: flex;
-    background: #0072C3;    
+    background: #0072C3;
 }
-.upper-card img
-{
-   filter: invert();
-   width: 60px;
-   margin-right: 20px;
-   margin-left: 20px;
-   cursor: pointer;
+
+.upper-card img {
+    filter: invert();
+    width: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
 
 }
-.upper-card h3
-{
+
+.upper-card h3 {
     font-family: 'IBM Plex Mono';
     font-weight: 700;
     font-size: 35px;
@@ -190,50 +191,47 @@ nav{
     color: #FFFFFF;
 
 }
-.below-card
-{
+
+.below-card {
     height: 140px;
-    background: #4589FF;  
+    background: #4589FF;
     display: none;
 }
 
-.below-card ul
-{
+.below-card ul {
     font-family: 'IBM Plex Mono';
-    color: #FFFFFF; 
+    color: #FFFFFF;
     font-size: 29px;
-    margin-left: 100px; 
+    margin-left: 100px;
     margin-top: 30px;
 
 }
 
 
 @media only screen and (max-width: 1247px) {
-    #pricing h2
-    {
+    #pricing h2 {
         font-size: 35px;
     }
-    .upper-card h3
-    {
+
+    .upper-card h3 {
         font-size: 20px;
     }
-    .below-card ul
-    {
+
+    .below-card ul {
         font-size: 18px;
-        margin-left: 10px; 
+        margin-left: 10px;
         margin-top: 15px;
     }
-    .upper-card img
-    {
+
+    .upper-card img {
         width: 30px;
         margin-right: 5px;
         margin-left: 20px;
 
     }
-    .free-card, .professional-card, .business-card
-    {
+
+    .free-card, .professional-card, .business-card {
         padding-left: 30px;
         padding-right: 30px;
     }
-  }
->>>>>>> main
+}
