@@ -32,8 +32,13 @@
       "title": "EMPRESAS",
       "description-1": "Intermediamos entre ustedes y los proveedores.",
       "description-2": "Ofertas exclusivas."
-
     }
-    
+  },
+  "app-form": {
+    "title": "Contactanos",
+    "name": "Nombre",
+    "number": "Numero",
+    "email": "Correo",
+    "send": "Enviar"
   }
 }

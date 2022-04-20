@@ -32,8 +32,13 @@
       "title": "BUSINESS",
       "description-1": "We will be intermediaries between you and the providers.",
       "description-2": "Exclusive offers "
-
     }
-    
+  },
+  "app-form": {
+    "title": "Contact us",
+    "name": "Name",
+    "number": "Number",
+    "email": "Email",
+    "send": "Send"
   }
 }

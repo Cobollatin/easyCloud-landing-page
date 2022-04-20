@@ -67,16 +67,51 @@ let containerFree = document.getElementById('container-free');
 let containerProfessional = document.getElementById('container-professional');
 let containerBusiness = document.getElementById('container-business');
 
-
+let srcSubstract = "media/Icons/subtract.svg";
+let srcAdd = "media/Icons/add.svg";
+let pressFree = false;
+let pressProfessional = false;
+let pressBusiness = false;
 addFree.addEventListener("click", (e)=>{
-    if(containerFree.style.display == "none") containerFree.style.display = "block";
-    else containerFree.style.display = "none"
+    if(pressFree == false) 
+    {
+        pressFree = true;
+        containerFree.style.display = "block";
+        addFree.src = srcSubstract;
+    }
+    else 
+    {
+        pressFree = false;
+        containerFree.style.display = "none"
+        addFree.src = srcAdd;
+    }
  });
 addProfessional.addEventListener("click", (e)=>{
-    if(containerProfessional.style.display == "none") containerProfessional.style.display = "block";
-    else containerProfessional.style.display = "none"
+    if(pressProfessional == false) 
+    {
+        pressProfessional = true;
+        containerProfessional.style.display = "block";
+        addProfessional.src = srcSubstract;
+    }
+    else
+    {
+        pressProfessional = false;
+        containerProfessional.style.display = "none"
+        addProfessional.src = srcAdd;  
+    } 
 });
 addBusiness.addEventListener("click", (e)=>{
-    if(containerBusiness.style.display == "none") containerBusiness.style.display = "block";
-    else containerBusiness.style.display = "none"   
+    if(pressBusiness == false) 
+    {
+        pressBusiness = true;
+        containerBusiness.style.display = "block";
+        addBusiness.src = srcSubstract;
+    }
+    else 
+    {
+        pressBusiness = false;
+        containerBusiness.style.display = "none"   
+        addBusiness.src = srcAdd;
+    }
+
 });
