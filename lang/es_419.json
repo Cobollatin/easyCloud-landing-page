@@ -18,7 +18,6 @@
       "description": "Podras escoger entre maquinas virtuales, bases de datos y computacion serverless."
     }
   },
-
   "app-providers": {
     "title-providers": "Los mejores proveedores Cloud en una sola aplicación"
   },
