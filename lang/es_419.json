@@ -1,8 +1,9 @@
 {
   "app-title": "easyCloud",
-  "app-description": "Nosotros te ayudaremos a elegir el mejor proveedor de la nube para tus necesidades.",
+  "app-description": "Compara el coste de diferentes proveedores de servicios en la nube con EasyCloud, tu aplicación que te ayuda a ahorrar dinero y tiempo.",
   "app-login": "Iniciar sesión",
   "app-register": "Registrarse",
+  "app-calltoaction": "Empezar ahora",
   "app-features": {
     "save-your-quotes": {
       "title": "GUARDA TUS COTIZACIONES",

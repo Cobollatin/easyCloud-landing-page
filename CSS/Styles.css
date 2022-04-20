@@ -1,0 +1,140 @@
+:root{
+    --font : 'IBM Plex Mono', monospace;
+    --title-color: #003A6D;
+    --subtitle-color: #0072C3;
+    --text-color: #1D7EC3; /* opacity 69% */
+    --white-color: #FFF;
+    --black-color: #000000;
+    --card-dark-color: #0072C3;
+    --card-light-color: #4589FF;
+}
+
+*{
+    font-family: var(--font);
+    font-size: 16px;
+}
+
+nav{
+    display: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 0.5rem rgba(0,0,0,0.2);
+}
+
+.navbar{
+    padding: 12.5px;
+}
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand span{
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: bold;
+    color: var(--title-color);
+}
+
+.navbar-brand img{
+    max-width: 56px;
+    max-height: 39px;
+    width: 100%;
+    height: auto;
+    margin-right: 18px;
+}
+
+.navbar-nav{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav :not(:last-child){
+    margin-right: 10px;
+}
+
+.btn{
+    padding: 10px 14px;
+}
+
+.btn-outline-primary{
+    border-radius: 13px;
+    border: 3px solid var(--title-color);
+    background-color: transparent;
+}
+
+.nav-link{
+    padding: 0;
+    color: var(--black-color);
+    font-weight: bold;
+}
+
+
+.hero{
+    padding: 0 4vw;
+}
+
+.hero__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/media/hero-bg.jpg);
+    height: 520px;
+}
+
+
+.hero__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero__title{
+    color: var(--white-color);
+    font-weight: bold;
+    text-align: center;
+    line-height: 6.2vh;
+    max-width: 770px;
+    font-size: 2.8vw;
+}
+
+.btn-calltoaction{
+    margin-top: 7vh;
+    padding: 1vw 4vw;
+    background: var(--white-color);
+    border-radius: 40px;  
+    width: auto;
+    white-space: nowrap;
+    color: var(--title-color) !important;
+    font-weight: bold;
+    font-size: 2.5vh;
+    line-height: 31px;
+
+}
+
+@media (max-width: 768px) {
+    .hero__title{
+        max-width: 770px;
+        font-size: 4.8vw;
+    }
+    .hero__wrapper{
+        height: 70vh;
+    }
+    .navbar{
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .hero__title{
+        max-width: 770px;
+        font-size: 1.8vw;
+    }
+    .hero__wrapper{
+        height: 60vh;
+    }
+    .btn-calltoaction{
+        font-size: 2.5vh;
+    }
+}

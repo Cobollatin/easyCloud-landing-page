@@ -1,8 +1,9 @@
 {
   "app-title": "easyCloud",
-  "app-description": "We will help you chose the best cloud provider for your needs.",
-  "app-login": "Login",
-  "app-register": "Register",
+  "app-description": "Compare the cost of different providers of cloud services with EasyCloud, your application that helps you to save money and time.",
+  "app-login": "Log In",
+  "app-register": "Sign Up",
+  "app-calltoaction": "Start Now",
   "app-features": {
     "save-your-quotes": {
       "title": "SAVE YOUR QUOTES",
