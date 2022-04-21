@@ -20,7 +20,7 @@
     <!-- Styles -->
     <link href="CSS/Styles.css" rel="stylesheet"/>
 
-    <title>easyCloud</title>
+    <title data-i18n-key="app-title"></title>
 </head>
 <body>
 <nav
@@ -31,7 +31,7 @@
         <div class="start">
             <a class="navbar-brand text-dark" href="#">
                 <img src="/media/logo.png" class="img-fluid" alt="..."/>
-                <span>EasyCloud</span>
+                <span data-i18n-key="app-title"></span>
             </a>
         </div>
 
@@ -50,7 +50,7 @@
             <div class="collapse navbar-collapse end" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <select data-i18n-switcher class="locale-switcher">
+                        <select title="locale" data-i18n-switcher class="locale-switcher">
                             <option value="en_US">English</option>
                             <option value="es_419">Español</option>
                         </select>
@@ -83,8 +83,8 @@
         <div class="hero__content">
             <h1 data-i18n-key="app-description" class="hero__title"></h1>
             <button
-                    data-i18n-key="app-calltoaction"
-                    class="btn btn-calltoaction"
+                    data-i18n-key="app-call-to-action"
+                    class="btn btn-call-to-action"
             ></button>
         </div>
     </div>
@@ -94,7 +94,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="..."/>
+                    <img src="" class="card-img-top" alt="..."/>
                     <div class="card-body">
                         <h5
                                 data-i18n-key="app-features.save-your-quotes.title"
@@ -109,7 +109,7 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="..."/>
+                    <img src="" class="card-img-top" alt="..."/>
                     <div class="card-body">
                         <h5
                                 data-i18n-key="app-features.simultaneously-quote.title"
@@ -124,7 +124,7 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="..."/>
+                    <img src="" class="card-img-top" alt="..."/>
                     <div class="card-body">
                         <h5
                                 data-i18n-key="app-features.main-cloud-services.title"
@@ -152,7 +152,7 @@
     <div class="price-content">
         <div class="free-card">
             <div class="upper-card">
-                <img src="media/Icons/add.svg" id="free-add"/>
+                <img alt="free-add" src="media/Icons/add.svg" id="free-add"/>
                 <h3 data-i18n-key="app-pricing.free-card.title"></h3>
             </div>
             <div class="below-card" id="container-free">
@@ -163,7 +163,7 @@
         </div>
         <div class="professional-card">
             <div class="upper-card">
-                <img src="media/Icons/add.svg" id="professional-add"/>
+                <img alt="professional-add" src="media/Icons/add.svg" id="professional-add"/>
                 <h3 data-i18n-key="app-pricing.professional-card.title"></h3>
             </div>
             <div class="below-card" id="container-professional">
@@ -176,7 +176,7 @@
         </div>
         <div class="business-card">
             <div class="upper-card">
-                <img src="media/Icons/add.svg" id="business-add"/>
+                <img alt="business-add" src="media/Icons/add.svg" id="business-add"/>
                 <h3 data-i18n-key="app-pricing.business-card.title"></h3>
             </div>
             <div class="below-card" id="container-business">

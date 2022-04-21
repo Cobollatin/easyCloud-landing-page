@@ -7,95 +7,95 @@
     --black-color: #000000;
     --card-dark-color: #0072c3;
     --card-light-color: #4589ff;
-  }
-  
-  * {
+}
+
+* {
     font-family: var(--font);
-  }
-  
-  nav {
+}
+
+nav {
     top: 0;
     left: 0;
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
-  }
-  
-  .navbar {
+}
+
+.navbar {
     padding: 12.5px;
-  }
-  
-  .navbar-brand {
+}
+
+.navbar-brand {
     display: flex;
     align-items: center;
-  }
-  
-  .navbar-brand span {
+}
+
+.navbar-brand span {
     font-size: 24px;
     line-height: 31px;
     font-weight: bold;
     color: var(--title-color);
-  }
-  
-  .navbar-brand img {
+}
+
+.navbar-brand img {
     max-width: 56px;
     max-height: 39px;
     width: 100%;
     height: auto;
     margin-right: 18px;
-  }
-  
-  .navbar-nav {
+}
+
+.navbar-nav {
     display: flex;
     align-items: center;
-  }
-  
-  .navbar-nav :not(:last-child) {
+}
+
+.navbar-nav :not(:last-child) {
     margin-right: 10px;
-  }
-  
-  .btn {
+}
+
+.btn {
     padding: 10px 14px;
-  }
-  
-  .btn-outline-primary {
+}
+
+.btn-outline-primary {
     border-radius: 13px;
     border: 3px solid var(--title-color);
     background-color: transparent;
-  }
-  
-  .nav-link {
+}
+
+.nav-link {
     padding: 0;
     color: var(--black-color);
     font-weight: bold;
-  }
-  
-  .hero {
+}
+
+.hero {
     padding: 0 4vw;
-  }
-  
-  .hero__wrapper {
+}
+
+.hero__wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: url(/media/hero-bg.jpg);
     height: 520px;
-  }
-  
-  .hero__content {
+}
+
+.hero__content {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .hero__title {
+}
+
+.hero__title {
     color: var(--white-color);
     font-weight: bold;
     text-align: center;
     line-height: 6.2vh;
     max-width: 770px;
     font-size: 2.8vw;
-  }
-  
-  .btn-calltoaction {
+}
+
+.btn-call-to-action {
     margin-top: 7vh;
     padding: 1vw 4vw;
     background: var(--white-color);
@@ -106,52 +106,52 @@
     font-weight: bold;
     font-size: 2.5vh;
     line-height: 31px;
-  }
-  
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     .hero__title {
-      max-width: 770px;
-      font-size: 4.8vw;
+        max-width: 770px;
+        font-size: 4.8vw;
     }
-  
+
     .hero__wrapper {
-      height: 70vh;
+        height: 70vh;
     }
-  
+
     .navbar {
-      padding: 10px;
+        padding: 10px;
     }
-  }
-  
-  @media (min-width: 1920px) {
+}
+
+@media (min-width: 1920px) {
     .hero__title {
-      max-width: 770px;
-      font-size: 1.8vw;
+        max-width: 770px;
+        font-size: 1.8vw;
     }
-  
+
     .hero__wrapper {
-      height: 60vh;
+        height: 60vh;
     }
-  
+
     .btn-calltoaction {
-      font-size: 2.5vh;
+        font-size: 2.5vh;
     }
-  }
-  
-  #pricing h2 {
+}
+
+#pricing h2 {
     margin-top: 50px;
     font-family: "IBM Plex Mono";
     font-weight: 700;
     font-size: 48px;
     text-align: center;
     filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
-  
+
     color: #003a6d;
-  }
-  
-  .free-card,
-  .professional-card,
-  .business-card {
+}
+
+.free-card,
+.professional-card,
+.business-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -159,106 +159,108 @@
     padding-left: 70px;
     padding-right: 70px;
     padding-top: 40px;
-  
+
 }
 
-.price-content
-{
+.price-content {
     margin-bottom: 70px;
 }
-  
-  .upper-card {
+
+.upper-card {
     height: 100px;
     display: flex;
     background: #0072c3;
-  }
-  
-  .upper-card img {
+}
+
+.upper-card img {
     filter: invert();
     width: 60px;
     margin-right: 20px;
     margin-left: 20px;
     cursor: pointer;
-  }
-  
-  .upper-card h3 {
+}
+
+.upper-card h3 {
     font-family: "IBM Plex Mono";
     font-weight: 700;
     font-size: 35px;
     line-height: 52px;
     margin-top: 25px;
-  
+
     color: #ffffff;
-  }
-  
-  #container-business, #container-professional, #container-free {
+}
+
+#container-business, #container-professional, #container-free {
     height: 140px;
     background: #4589ff;
     display: none;
-  }
-  
+}
 
-  .below-card ul {
+
+.below-card ul {
     font-family: "IBM Plex Mono";
     color: #ffffff;
     font-size: 29px;
     margin-left: 100px;
     margin-top: 30px;
-  }
-  
-  @media only screen and (max-width: 1247px) {
+}
+
+@media only screen and (max-width: 1247px) {
     #pricing h2 {
-      font-size: 35px;
+        font-size: 35px;
     }
-  
+
     .upper-card h3 {
-      font-size: 20px;
+        font-size: 20px;
     }
-  
+
     .below-card ul {
-      font-size: 18px;
-      margin-left: 10px;
-      margin-top: 15px;
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 15px;
     }
-  
+
     .upper-card img {
-      width: 30px;
-      margin-right: 5px;
-      margin-left: 20px;
+        width: 30px;
+        margin-right: 5px;
+        margin-left: 20px;
     }
-  
+
     .free-card,
     .professional-card,
     .business-card {
-      padding-left: 30px;
-      padding-right: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
-  }
-  
+}
+
 .formulario {
     background: linear-gradient(
-        rgba(133, 182, 216, 0.6),
-        rgba(124, 159, 184, 0.414)
-      ),
-      url("../media/Pictures/form_startup.jpg") bottom center no-repeat;
+            rgba(133, 182, 216, 0.6),
+            rgba(124, 159, 184, 0.414)
+    ),
+    url("../media/Pictures/form_startup.jpg") bottom center no-repeat;
     height: 35rem;
     background-size: cover;
-  }
-  .contact-title {
+}
+
+.contact-title {
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
     color: #003a6d;
-  }
-  .form-control-labels {
+}
+
+.form-control-labels {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     color: #003a6d;
     padding: 0.2em;
-  }
-  .btn-contact-send,
-  .form-control {
+}
+
+.btn-contact-send,
+.form-control {
     position: relative;
     font-size: 17px;
     display: inline-block;
@@ -269,32 +271,37 @@
     color: rgba(0, 114, 195, 1);
     background-color: white;
     box-shadow: 0px 9px 14px -6px #000000;
-  }
-  
-  .form-control::placeholder {
+}
+
+.form-control::placeholder {
     color: rgba(0, 114, 195, 1);
-  }
-  .form-check-inline {
+}
+
+.form-check-inline {
     padding: 1em 2.5em;
-  }
-  .form-control {
+}
+
+.form-control {
     padding: 1em 2.5em;
     border-radius: 0.8em;
-  }
-  .btn-contact-send {
+}
+
+.btn-contact-send {
     padding: 1em 2.5em;
     border-radius: 6em;
-  }
-  .btn-contact-send:hover {
+}
+
+.btn-contact-send:hover {
     transform: translateY(+3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     .formulario {
-      height: 50.25rem;
+        height: 50.25rem;
     }
-    .contact-title
-    {
+
+    .contact-title {
         font-size: 60px;
     }
-  }
+}
