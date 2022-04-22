@@ -7,6 +7,7 @@
     <meta name="description" content="EasyCloud Landing Page." />
     <meta name="author" content="ImpactIT" />
     <meta name="copyright" content="ImpactIT" />
+    <link rel="shortcut icon" href="./media/logo.png">
     <!-- Fonts -->
     <link href="CSS/Fonts.css" rel="stylesheet" />
     <!-- Bootstrap CSS -->
@@ -28,20 +29,8 @@
             <span data-i18n-key="app-title"></span>
           </a>
         </div>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarCollapse"
-          aria-controls="navbarCollapse"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="end">
-          <div class="collapse navbar-collapse end" id="navbarCollapse">
+          <div class="navbar-collapse end" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item">
                 <select
@@ -70,66 +59,56 @@
       </div>
     </section>
     <section id="features">
-      <div class="container-fluid bg-white">
-        <div
-          class="row row-cols-1 row-cols-md-3 g-4 text-center align-items-center"
-        >
-          <div class="col">
-            <div class="card h-100">
-              <img
-                src="./media/Icons/save.svg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5
-                  data-i18n-key="app-features.save-your-quotes.title"
-                  class="card-title"
-                ></h5>
-                <p
-                  data-i18n-key="app-features.save-your-quotes.description"
-                  class="card-text"
-                ></p>
-              </div>
-            </div>
+      <div class="cards-container">
+        <div class="card">
+          <img
+                  src="./media/Icons/save.svg"
+                  class="card-img-top"
+                  alt="save quotes"
+          />
+          <div class="card-body">
+            <h5
+                    data-i18n-key="app-features.save-your-quotes.title"
+                    class="card-title"
+            ></h5>
+            <p
+                    data-i18n-key="app-features.save-your-quotes.description"
+                    class="card-text"
+            ></p>
           </div>
-          <div class="col">
-            <div class="card h-100">
-              <img
-                src="./media/Icons/benefits_layer.svg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5
-                  data-i18n-key="app-features.simultaneously-quote.title"
-                  class="card-title"
-                ></h5>
-                <p
-                  data-i18n-key="app-features.simultaneously-quote.description"
-                  class="card-text"
-                ></p>
-              </div>
-            </div>
+        </div>
+        <div class="card">
+          <img
+                  src="./media/Icons/benefits_layer.svg"
+                  class="card-img-top"
+                  alt="..."
+          />
+          <div class="card-body">
+            <h5
+                    data-i18n-key="app-features.simultaneously-quote.title"
+                    class="card-title"
+            ></h5>
+            <p
+                    data-i18n-key="app-features.simultaneously-quote.description"
+                    class="card-text"
+            ></p>
           </div>
-          <div class="col">
-            <div class="card h-100">
-              <img
-                src="./media/Icons/benefits_report.svg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5
-                  data-i18n-key="app-features.main-cloud-services.title"
-                  class="card-title"
-                ></h5>
-                <p
-                  data-i18n-key="app-features.main-cloud-services.description"
-                  class="card-text"
-                ></p>
-              </div>
-            </div>
+        </div>
+        <div class="card">
+          <img
+                  src="./media/Icons/benefits_report.svg"
+                  class="card-img-top"
+                  alt="..."
+          />
+          <div class="card-body">
+            <h5
+                    data-i18n-key="app-features.main-cloud-services.title"
+                    class="card-title"
+            ></h5>
+            <p
+                    data-i18n-key="app-features.main-cloud-services.description"
+                    class="card-text n3card"
+            ></p>
           </div>
         </div>
       </div>

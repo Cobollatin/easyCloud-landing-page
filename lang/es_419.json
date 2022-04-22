@@ -1,29 +1,29 @@
 {
   "locale": "es_419",
-  "app-title": "easyCloud",
-  "app-description": "Compara el coste de diferentes proveedores de servicios en la nube con EasyCloud, tu aplicación que te ayuda a ahorrar dinero y tiempo.",
+  "app-title": "EasyCloud",
+  "app-description": "Compara los costos de diferentes proveedores de servicios en la nube con EasyCloud, tu aplicación que te ayuda a ahorrar dinero y tiempo.",
   "app-login": "Iniciar sesión",
   "app-register": "Registrarse",
   "app-call-to-action": "Empezar ahora",
   "app-features": {
     "save-your-quotes": {
       "title": "GUARDA TUS COTIZACIONES",
-      "description": "Podras guardar tus cotizaciones y acceder a ellas en cualquier momento."
+      "description": "Podrás guardar tus cotizaciones y acceder a ellas en cualquier momento."
     },
     "simultaneously-quote": {
-      "title": "COTIZA SIMULTANEOAMENTE",
-      "description": "Cotiza en diferentes proveedores simultaneoamente."
+      "title": "COTIZA SIMULTÁNEAMENTE",
+      "description": "Cotiza en diferentes proveedores simultáneamente."
     },
     "main-cloud-services": {
-      "title": "LOS PRINCIPALES SERVICIOS DE LA NUBE",
-      "description": "Podras escoger entre maquinas virtuales, bases de datos y computacion serverless."
+      "title": "PRINCIPALES SERVICIOS DE LA NUBE",
+      "description": "Podrás escoger entre maquinas virtuales, bases de datos y computación serverless."
     }
   },
   "app-providers": {
-    "title-providers": "Los mejores proveedores Cloud en una sola aplicación"
+    "title-providers": "Los mejores proveedores cloud en una sola aplicación"
   },
   "app-pricing": {
-    "title-pricing": "Elegi tu plan",
+    "title-pricing": "Elige tu plan",
     "free-card": {
       "title": "GRATIS",
       "description": "Comparación con tres proveedores."
@@ -39,7 +39,7 @@
     }
   },
   "app-form": {
-    "title": "Contactanos",
+    "title": "Contáctenos",
     "name": "Nombre",
     "number": "Numero",
     "email": "Correo",
