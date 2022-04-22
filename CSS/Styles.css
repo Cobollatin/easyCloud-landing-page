@@ -139,7 +139,7 @@ nav {
 }
 
 #providers h2 {
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 100px;
     font-family: "IBM Plex Mono", system-ui;
     font-weight: 700;
@@ -363,4 +363,34 @@ nav {
     .contact-title {
         font-size: 60px;
     }
+}
+
+.card-img-top{
+    max-width: 6vw;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 280px;
+    border: none;
+}
+
+.card h5{
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-top: 0.5em;
+    color: var(--subtitle-color);
+}
+
+.card p{
+    font-size: 1em;
+    margin-top: 0.5em;
+    color: var(--text-color);
+}
+
+.row .col{
+    display: flex;
+    justify-content: center;
 }
