@@ -1,7 +1,8 @@
 @tagPlaceholder1 @tagPlaceholder2
 Feature: Internacionalización
-  Scenario: 
-    Given 
-     When 
-     Then 
+  Scenario: Visitante cambia el idioma de la página de Ingles a Español
+    Given que el visitante se encuentra en la panta principal
+     And haga clic en el botón “Ingles”
+     And selecciona la opción ‘Español’
+     Then el sistema cambia los textos de la página a “Español”
 
