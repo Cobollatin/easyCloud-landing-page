@@ -2,6 +2,6 @@
 Feature: Call to Action
   Scenario: Visitante accede a al formulario de contacto
     Given que el usuario se encuentra en la pantalla de inicio
-    And haga clic en el botón “Empezar ahora”
+    When haga clic en el botón “Empezar ahora”
     Then será enviada a la sección del formulario de contacto del Landing page
 
