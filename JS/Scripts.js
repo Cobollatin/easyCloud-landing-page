@@ -101,3 +101,8 @@ addBusiness.addEventListener("click", (e) => {
     addBusiness.src = srcAdd;
   }
 });
+
+
+function scrollDown(id) {
+  window.scrollTo({ top: window.scrollY + document.querySelector(id).getBoundingClientRect().top,behavior: 'smooth' })
+}
