@@ -1,17 +1,19 @@
 {
   "locale": "es_419",
-  "app-title": "easyCloud",
+  "app-title": "EasyCloud",
   "app-description": "Compara el coste de diferentes proveedores de servicios en la nube con EasyCloud, tu aplicación que te ayuda a ahorrar dinero y tiempo.",
-  "app-login": "Iniciar sesión",
-  "app-register": "Registrarse",
-  "app-call-to-action": "Empezar ahora",
+  "app-know": "Conoce más",
+  "app-go-price": "Ver planes",
+  "app-call-to-action": "Contáctanos",
   "app-features": {
+    "title": "Caracterisitcas de",
+    "title-strong": "EasyCloud",
     "save-your-quotes": {
       "title": "GUARDA TUS COTIZACIONES",
       "description": "Podras guardar tus cotizaciones y acceder a ellas en cualquier momento."
     },
     "simultaneously-quote": {
-      "title": "COTIZA SIMULTANEOAMENTE",
+      "title": "COTIZA SIMULTANEAMENTE",
       "description": "Cotiza en diferentes proveedores simultaneoamente."
     },
     "main-cloud-services": {
@@ -20,29 +22,38 @@
     }
   },
   "app-providers": {
-    "title-providers": "Los mejores proveedores Cloud en una sola aplicación"
+    "title": "Principales",
+    "title-strong": "Cloud Services"
   },
   "app-pricing": {
-    "title-pricing": "Elegi tu plan",
+    "title": "Conoce Sobre",
+    "title-strong": "Nuestros Planes",
     "free-card": {
-      "title": "GRATIS",
-      "description": "Comparación con tres proveedores."
+      "title": "Personal",
+      "item1": "Compara con 3 cloud services",
+      "item2": "Guarda hasta 5 cotizaciones",
+      "price": "Free"
     },
     "professional-card": {
-      "title": "PROFESIONAL",
-      "description": "Comparación con todos nuestros proveedores."
+      "title": "Profesional",
+      "item1": "Compara con todos los cloud services",
+      "item2": "Guarda cotizaciones ilimitadas",
+      "price": "5 usd"
     },
-    "business-card": {
-      "title": "EMPRESAS",
-      "description-1": "Intermediamos entre ustedes y los proveedores.",
-      "description-2": "Ofertas exclusivas."
+    "enterprise-card": {
+      "title": "Empresarial",
+      "item1": "Compara con todos los cloud services",
+      "item2": "Guarda cotizaciones ilimitadas",
+      "item3": "Funciones unicas de la aplicación",
+      "price": "10 usd"
     }
   },
   "app-form": {
-    "title": "Contactanos",
+    "title": "Contactate con",
+    "title-strong": "Nuestro Equipo",
     "name": "Nombre",
     "number": "Numero",
     "email": "Correo",
-    "send": "Enviar"
+    "send": "Enviar Formulario"
   }
 }

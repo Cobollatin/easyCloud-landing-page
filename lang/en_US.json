@@ -1,11 +1,13 @@
 {
   "locale": "en_US",
-  "app-title": "easyCloud",
+  "app-title": "EasyCloud",
   "app-description": "Compare the cost of different providers of cloud services with EasyCloud, your application that helps you to save money and time.",
-  "app-login": "Log In",
-  "app-register": "Sign Up",
-  "app-call-to-action": "Start Now",
+  "app-know": "Discover features",
+  "app-go-price": "Go to subscriptions",
+  "app-call-to-action": "Contact Us",
   "app-features": {
+    "title": "Features of",
+    "title-strong": "EasyCloud",
     "save-your-quotes": {
       "title": "SAVE YOUR QUOTES",
       "description": "You can save all your quotes and view them at any time and place."
@@ -20,30 +22,39 @@
     }
   },
   "app-providers": {
-    "title-providers": "The best cloud providers in one application"
+    "title": "Meet our",
+    "title-strong": "Providers"
   },
 
   "app-pricing": {
-    "title-pricing": "Choose your plan",
+    "title": "About our",
+    "title-strong": "Subscriptions",
     "free-card": {
-      "title": "FREE",
-      "description": "You can only compare with three providers"
+      "title": "Personal",
+      "item1": "Compare with three providers",
+      "item2": "Save five quotes in your account",
+      "price": "Free"
     },
     "professional-card": {
-      "title": "PROFESSIONAL",
-      "description": "You can compare with all our providers"
+      "title": "Professional",
+      "item1": "Compare with all the providers",
+      "item2": "Unlimited quotes for save",
+      "price": "5 usd"
     },
-    "business-card": {
-      "title": "BUSINESS",
-      "description-1": "We will be intermediaries between you and the providers.",
-      "description-2": "Exclusive offers "
+    "enterprise-card": {
+      "title": "Enterprise",
+      "item1": "Compare with all the providers",
+      "item2": "Unlimited quotes for save",
+      "item3": "New features for enterprise",
+      "price": "10 usd"
     }
   },
   "app-form": {
-    "title": "Contact us",
-    "name": "Name",
-    "number": "Number",
+    "title": "Meet",
+    "title-strong": "EazyCloud Team",
+    "name": "Complete Name",
+    "number": "Phone Number",
     "email": "Email",
-    "send": "Send"
+    "send": "Send Form"
   }
 }
