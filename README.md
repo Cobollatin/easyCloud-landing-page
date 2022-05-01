@@ -6,6 +6,6 @@ Link: <https://www.easycloud.ga/>
 |---|---|---|
 | Adrian Marquina Vichino | u202017487 | Cobollatin |
 | John Leon Leon | U20191C036 | MrPool702  |
-| Franco |   |   |
+| Franco Renato Carrillo Guevara | u202013943 | FrancoCarrillo |
 | Eleazar |   |   |
 | Jefferson |   |   |
