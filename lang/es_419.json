@@ -38,11 +38,8 @@
       "description-2": "Ofertas exclusivas. \n$100 por mes"
     }
   },
-  "app-form": {
-    "title": "Contáctenos",
-    "name": "Nombre",
-    "number": "Numero",
-    "email": "Correo",
-    "send": "Enviar"
+  "app-contact": {
+    "send": "Empezar gratis",
+    "title": "Compara tus proveedores de nube favoritos con una cuenta gratuita de EasyCloud"
   }
 }
