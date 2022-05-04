@@ -18,7 +18,7 @@ async function setLocale(newLocale) {
 }
 
 async function fetchTranslationsFor(newLocale) {
-  const response = await fetch(`/lang/${newLocale}.json`);
+  const response = await fetch(`./lang/${newLocale}.json`);
   return await response.json();
 }
 
@@ -63,8 +63,8 @@ let containerFree = document.getElementById("container-free");
 let containerProfessional = document.getElementById("container-professional");
 let containerBusiness = document.getElementById("container-business");
 
-let srcSubstract = "media/Icons/subtract.svg";
-let srcAdd = "media/Icons/add.svg";
+let srcSubstract = "./media/Icons/subtract.svg";
+let srcAdd = "./media/Icons/add.svg";
 let pressFree = false;
 let pressProfessional = false;
 let pressBusiness = false;

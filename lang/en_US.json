@@ -31,12 +31,12 @@
     },
     "professional-card": {
       "title": "PROFESSIONAL",
-      "description": "You can compare with all our providers"
+      "description": "You can compare with all our providers\n$50 per month"
     },
     "business-card": {
       "title": "BUSINESS",
       "description-1": "We will be intermediaries between you and the providers.",
-      "description-2": "Exclusive offers "
+      "description-2": "Exclusive offers\n$100 per month "
     }
   },
   "app-form": {

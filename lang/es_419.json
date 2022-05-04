@@ -30,12 +30,12 @@
     },
     "professional-card": {
       "title": "PROFESIONAL",
-      "description": "Comparación con todos nuestros proveedores."
+      "description": "Comparación con todos nuestros proveedores.\n$50 por mes"
     },
     "business-card": {
       "title": "EMPRESAS",
       "description-1": "Intermediamos entre ustedes y los proveedores.",
-      "description-2": "Ofertas exclusivas."
+      "description-2": "Ofertas exclusivas. \n$100 por mes"
     }
   },
   "app-form": {
