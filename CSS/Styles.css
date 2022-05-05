@@ -272,10 +272,16 @@ select {
   font-size: 35px;
   line-height: 52px;
   margin-top: 25px;
-
+  width: 300px;
   color: #ffffff;
 }
-
+.upper-card h4{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 700px;
+  margin-top: 25px;
+}
 #container-professional,
 #container-free {
   height: 140px;
@@ -303,7 +309,6 @@ select {
   .upper-card h3 {
     font-size: 20px;
   }
-
   .below-card ul {
     font-size: 18px;
     margin-left: 10px;
@@ -315,7 +320,6 @@ select {
     margin-right: 5px;
     margin-left: 20px;
   }
-
   .free-card,
   .professional-card,
   .business-card {
@@ -387,6 +391,11 @@ select {
   }
 }
 @media (max-width: 1000px) {
+  .upper-card h4{
+    margin-left: 500px;
+    margin-top: 25px;
+  }
+
   .cards-container {
     flex-direction: column;
     align-items: center;
