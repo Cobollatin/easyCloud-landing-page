@@ -42,7 +42,13 @@
             </div>
           </div>
           <button
-            class="btn calltoaction"
+            class="btn btn--dark"
+            type="button"
+            onclick="scrollDown('#contact')"
+            data-i18n-key="app-call-to-action"
+          >
+          <button
+            class="btn btn--contact"
             type="button"
             onclick="scrollDown('#contact')"
             data-i18n-key="app-call-to-action"
@@ -55,7 +61,7 @@
     <section class="hero section">
       <div class="wrapper hero__wrapper">
         <div class="hero__aside">
-          <h1>EazyCloud</h1>
+          <h1 data-i18n-key="app-title"></h1>
           <p data-i18n-key="app-description"></p>
           <div class="hero__buttons">
             <button class="btn btn--dark" type="button" onclick="scrollDown('#features')" data-i18n-key="app-know"></button>
