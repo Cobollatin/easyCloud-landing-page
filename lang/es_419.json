@@ -5,7 +5,7 @@
   "app-know": "Conoce más",
   "app-go-price": "Ver planes",
   "app-call-to-action": "Ir a la aplicación",
-  "app-contact-button": "Contáctanos",
+  "app-contact-button": "Nosotros",
   "app-features": {
     "title": "Caracterisitcas de",
     "title-strong": "EasyCloud",
@@ -49,12 +49,12 @@
       "price": "10 usd"
     }
   },
-  "app-form": {
-    "title": "Contactate con",
-    "title-strong": "Nuestro Equipo",
-    "name": "Nombre",
-    "number": "Numero",
-    "email": "Correo",
-    "send": "Enviar Formulario"
+  "app-team": {
+    "title": "Conoce",
+    "title-strong": "Sobre Nosotros"
+  },
+  "app-product": {
+    "title": "Conoce",
+    "title-strong": "Sobre EasyCloud"
   }
 }

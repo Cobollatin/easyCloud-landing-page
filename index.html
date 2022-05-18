@@ -16,6 +16,8 @@
   </head>
 
   <body>
+
+    <!-- HEADER -->
     <header id="navbar" class="header">
       <div class="wrapper header__wrapper">
         <div class="header__logo">
@@ -32,31 +34,30 @@
                   <select
                     title="locale"
                     data-i18n-switcher
-                    class="btn btn--idiom"
+                    class="btn btn--idiom select"
                   >
-                    <option value="en_US">English</option>
-                    <option value="es_419">Español</option>
+                    <option value="en_US" class="option">English</option>
+                    <option value="es_419" class="option">Español</option>
                   </select>
                 </li>
               </ul>
             </div>
           </div>
-          <a href="https://app.easycloud.gq/">
-              <button
-              class="btn btn--dark"
-              data-i18n-key="app-call-to-action"
-              >
+          <a href="https://app.easycloud.gq/"
+            class="btn btn--dark go-app"
+            data-i18n-key="app-call-to-action">
             </button>
           </a>
           <button
             class="btn btn--contact"
             type="button"
-            onclick="scrollDown('#contact')"
+            onclick="scrollDown('#team')"
             data-i18n-key="app-contact-button"
           >
         </div>
       </div>
     </header>
+
     <!-- HERO -->
     <section class="hero section">
       <div class="wrapper hero__wrapper">
@@ -192,54 +193,45 @@
       </div>
     </section>
 
-    <!-- CONTACT -->
-    <section id="contact" class="contact section">
+    <!-- ABOUT THE PRODUCT -->
+    <section id="product" class="product section">
       <div class="contact__wrapper wrapper">
         <div class="title__container title">
-          <h1 data-i18n-key="app-form.title"></h1>
-          <span data-i18n-key="app-form.title-strong"><br></span>
+          <h1 data-i18n-key="app-product.title"></h1>
+          <span data-i18n-key="app-product.title-strong"><br></span>
         </div>
-        <div class="form">
-          <form class="form__container" name="form" id="contact-form">
-            <div class="form__content">
-              <!--NAME-->
-              <label
-                class="form-control-labels"
-                data-i18n-key="app-form.name"
-              ></label>
-              <input title="name" required type="text" class="form-control" />
-              <!--NUMBER-->
-              <label
-                class="form-control-labels"
-                data-i18n-key="app-form.number"
-              ></label>
-              <input title="number" required type="text" class="form-control" />
-              <!--EMAIL-->
-              <label
-                class="form-control-labels"
-                data-i18n-key="app-form.email"
-              ></label>
-              <input title="email" required type="email" class="form-control" />
-              <!--Button-->
-              <div class="form__btn">
-                <button
-                  type="submit"
-                  class="btn calltoaction"
-                  data-i18n-key="app-form.send"
-                ></button>
-              </div>
-            </div>
-          </form>
-          <img src="./media/Pictures/contact-img.png" alt="">
+        <div>
+          <iframe width="100%" height="600" src="https://www.youtube.com/embed/23pYBTkJi2s"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
         </div>
       </div>
     </section>
 
+    <!-- ABOUT THE TEAM -->
+    <section id="team" class="team section">
+      <div class="contact__wrapper wrapper">
+        <div class="title__container title">
+          <h1 data-i18n-key="app-team.title"></h1>
+          <span data-i18n-key="app-team.title-strong"><br></span>
+        </div>
+        <div>
+          <iframe width="100%" height="600" src="https://www.youtube.com/embed/23pYBTkJi2s"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
     <footer class="footer">
       <div class="footer__tag">
         ©CloudAssistant 2022
       </div>
     </footer>
+
     <!-- Scrips -->
     <script src="JS/Scripts.js"></script>
   </body>

@@ -5,7 +5,7 @@
   "app-know": "Discover features",
   "app-go-price": "Go to subscriptions",
   "app-call-to-action": "Go to App",
-  "app-contact-button": "Contact Us",
+  "app-contact-button": "About Us",
   "app-features": {
     "title": "Features of",
     "title-strong": "EasyCloud",
@@ -50,12 +50,12 @@
       "price": "10 usd"
     }
   },
-  "app-form": {
-    "title": "Meet",
-    "title-strong": "EasyCloud Team",
-    "name": "Complete Name",
-    "number": "Phone Number",
-    "email": "Email",
-    "send": "Send Form"
+  "app-team": {
+    "title": "About",
+    "title-strong": "The Team"
+  },
+  "app-product": {
+    "title": "About",
+    "title-strong": "EasyCloud"
   }
 }

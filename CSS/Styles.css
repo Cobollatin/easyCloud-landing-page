@@ -28,6 +28,14 @@ body{
     background-color: var(--bg-color);
 }
 
+.option{
+    color: var(--dark-blue) !important;
+}
+
+.select{
+    color: var(--dark-blue) !important;
+}
+
 /* Common */
 .title h1{
     font-size: 2.5rem;
@@ -320,7 +328,8 @@ body{
     flex-direction: column;
 }
 
-.contact{
+
+.team{
     padding-bottom: 80px;
 }
 
@@ -347,6 +356,9 @@ body{
 }
 
 @media (max-width: 768px) {
+    .go-app, .idiom{
+        margin-right: 0px !important;
+    }
     .form img{
       display: none;
     }
@@ -389,9 +401,13 @@ body{
         width: 32px;
         height: auto;
     }
+    iframe{
+        height: 450px;
+    }
   }
 
   @media (max-width: 390px) {
+
     .wrapper{
         padding: 0 24px;
         padding-top: 24px;
@@ -417,6 +433,7 @@ body{
         padding: 7px 14px;
         border-radius: 8px;
         font-size: 16px;
+        
     }
     .hero__buttons{
         display: flex;
@@ -445,5 +462,8 @@ body{
     }
     .form-control-labels{
         font-size: 20px;
+    }
+    iframe{
+        height: 250px;
     }
   }
