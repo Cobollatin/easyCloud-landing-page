@@ -41,5 +41,13 @@
   "app-contact": {
     "send": "Empezar gratis",
     "title": "Compara tus proveedores de nube favoritos con una cuenta gratuita de EasyCloud"
+  },
+
+  "app-abouttheproduct": {
+    "title-abouttheproduct": "Acerca del Producto."
+  },
+
+  "app-abouttheteam": {
+    "title-abouttheteam": "Acerca del Equipo."
   }
 }
