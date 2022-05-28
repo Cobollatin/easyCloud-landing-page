@@ -338,7 +338,6 @@ select {
   background-size: cover;
 }
 
-.btn-contact-send,
 .form-control {
   position: relative;
   font-size: 17px;
@@ -351,6 +350,7 @@ select {
   background-color: white;
   box-shadow: 0 9px 14px -6px #000000;
 }
+
 
 .form-control::placeholder {
   color: rgba(0, 114, 195, 1);
@@ -494,4 +494,15 @@ select {
   margin-bottom: 100px;
   text-align: center;
   filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
+}
+
+.btn-contact-send {
+  font-size: 25px;
+  margin-top: 7vh;
+  padding: 1vw 4vw;
+  background: var(--white-color);
+  border-radius: 40px;
+  width: auto;
+  font-weight: bold;
+  line-height: 31px;
 }
