@@ -9,4 +9,4 @@ Link: <https://www.easycloud.ga/>
 | Franco Renato Carrillo Guevara | u202013943 | FrancoCarrillo |
 | Eleazar Felipe Braco Terry | u20191e507  | EleazarBT  |
 | Jefferson Anthony Ortega Martel | u201920273  | JeffersonOrtega2018  |
-| Gianfrnaco Luna Morales | u201824343  | Nier4991 |
+| Gianfranco Luna Morales | u201824343  | Nier4991 |
